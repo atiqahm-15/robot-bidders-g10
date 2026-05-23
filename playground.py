@@ -43,11 +43,11 @@ BATCH_SIZE = 64
 EPOCHS     = 30
 LR         = 1e-3
 
-X_static_train = np.load('X_static_train.npy')
-X_seq_train    = np.load('X_seq_train.npy')
-y_train        = np.load('y_train.npy')
-X_static_test  = np.load('X_static_test.npy')
-X_seq_test     = np.load('X_seq_test.npy')
+X_static_train = np.load('var/X_static_train.npy')
+X_seq_train    = np.load('var/X_seq_train.npy')
+y_train        = np.load('var/y_train.npy')
+X_static_test  = np.load('var/X_static_test.npy')
+X_seq_test     = np.load('var/X_seq_test.npy')
  
 # split
 idx_train, idx_val = train_test_split(
