@@ -216,3 +216,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# datasets
+bids.csv
+test.csv
+train.csv
+# Added by agent
+*.pt
+data/
+results/
